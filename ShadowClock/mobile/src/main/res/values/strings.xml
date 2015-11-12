@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Shadow Clock</string>
+    <string name="title_no_device_connected">No wearable device is currently connected.</string>
+    <string name="ok_no_device_connected">OK</string>
+
+    <string name="style_header_text_a">SELECT</string>
+    <string name="style_header_text_b">TIME DISPLAY</string>
+</resources>

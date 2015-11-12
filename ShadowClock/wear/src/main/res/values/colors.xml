@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="hours" type="color">#ffffff</item>
+    <item name="minutes" type="color">#ffffff</item>
+    <item name="sunHelper" type="color">#fbf903</item>
+    <item name="shadowColor" type="color">#55000000</item>
+
+    <item name="shadowPathInit" type="color">#44000000</item>
+    <item name="shadowPathEnd" type="color">#00000000</item>
+
+    <item name="interactiveModeTypeface" type="color">#ffffff</item>
+    <item name="interactiveModeBackground" type="color">#f5f5f5</item>
+
+    <item name="interactiveModeTypefaceNight" type="color">#464444</item>
+    <item name="interactiveModeBackgroundNight" type="color">#5b5b5b</item>
+
+    <item name="ambientModeTypeface" type="color">#88ffffff</item>
+    <item name="ambientModeBackground" type="color">#000000</item>
+
+    <item name="lowBitModeTypeface" type="color">#ffffff</item>
+    <item name="lowBitModeBackground" type="color">#000000</item>
+
+    <item name="settingsTextColor" type="color">#343434</item>
+
+</resources>

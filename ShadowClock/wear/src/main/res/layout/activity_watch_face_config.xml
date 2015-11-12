@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:customfont="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/both_off"
+        android:src="@drawable/bitmap_both_off" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/on_12"
+        android:src="@drawable/bitmap12"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/on_24"
+        android:src="@drawable/bitmap24"
+        android:visibility="invisible" />
+
+    <ToggleButton
+        android:id="@+id/hourButton"
+        android:fontFamily="sans-serif-condensed-light"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textSize="18sp"
+        android:textOff=""
+        android:textOn=""
+        android:background="@drawable/toggle1224"
+        android:enabled="false" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="40dp">
+
+            <com.breel.wearables.shadowclock.widget.TextViewCustomFont
+                customfont:fontName="Brandon_med.otf"
+                android:id="@+id/textA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="@dimen/textSize"
+                android:textColor="@color/settingsTextColor"
+                android:text="@string/textA"
+                android:letterSpacing="0.5"
+                android:layout_gravity="center" />
+
+            <com.breel.wearables.shadowclock.widget.TextViewCustomFont
+                customfont:fontName="Brandon_med.otf"
+                android:id="@+id/textB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:letterSpacing="0.5"
+                android:gravity="center"
+                android:textSize="@dimen/textSize"
+                android:textColor="@color/settingsTextColor"
+                android:text="@string/textB"
+                android:layout_gravity="center" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

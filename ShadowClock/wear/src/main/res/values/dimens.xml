@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="hour">90dp</dimen>
+    <dimen name="minutes">90dp</dimen>
+    <dimen name="seconds">90dp</dimen>
+    <dimen name="watchSize">320dp</dimen>
+    <dimen name="sunHelper">5dp</dimen>
+    <dimen name="textSize">10sp</dimen>
+</resources>

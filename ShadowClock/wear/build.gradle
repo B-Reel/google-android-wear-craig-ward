@@ -1,0 +1,37 @@
+apply plugin: 'com.android.application'
+
+repositories {
+    flatDir {
+        dirs '../libs/'
+    }
+    mavenCentral()
+}
+android {
+    compileSdkVersion 21
+    buildToolsVersion "21.1.1"
+
+    defaultConfig {
+        applicationId "com.breel.wearables.shadowclock"
+        minSdkVersion 20
+        targetSdkVersion 21
+        versionCode 3
+        versionName "1.2"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    android {
+        lintOptions {
+            abortOnError false
+        }
+    }
+}
+
+dependencies {
+    compile 'com.google.android.gms:play-services:7.0.0'
+    compile 'com.google.android.support:wearable-support:1.1+:@aar'
+    compile 'com.android.support:recyclerview-v7:21.0.0'
+}

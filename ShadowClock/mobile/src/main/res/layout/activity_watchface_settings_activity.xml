@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg"
+    >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/styleLabelA"
+                android:text="@string/style_header_text_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/styleLabel"
+                android:layout_gravity="center"
+                android:textColor="#000000"
+                android:layout_alignParentTop="false"
+                android:layout_alignParentLeft="false"
+                android:layout_alignParentRight="false"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="90dp"
+                android:letterSpacing="0.4"/>
+
+            <TextView
+                android:id="@+id/styleLabelB"
+                android:text="@string/style_header_text_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/styleLabel"
+                android:layout_gravity="center"
+                android:textColor="#000000"
+                android:layout_alignParentTop="false"
+                android:layout_alignParentLeft="false"
+                android:layout_alignParentRight="false"
+                android:textAlignment="center"
+                android:gravity="center_horizontal"
+                android:layout_marginBottom="20dp"
+                android:letterSpacing="0.4"/>
+
+            <ToggleButton
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textOff=""
+                android:textOn=""
+                android:id="@+id/twentyFourClockBtn"
+                android:background="@drawable/toggle1224"
+                android:checked="true"
+                android:paddingTop="40dp"
+                android:layout_gravity="center|top"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
